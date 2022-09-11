@@ -1,0 +1,36 @@
+.prt {
+    margin: 0px;
+    border: none;
+    padding: 0px 50px 0px 50px;
+    margin-bottom: 100px;
+}
+
+
+.intro {
+    font-size: 60px;
+    font-weight: 400;
+    opacity: 0.9;
+    text-decoration: underline;
+    text-decoration-color: rgb(139, 139, 199);
+    text-decoration-thickness: 15px;
+
+}
+
+.imgcontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.imgcontainer>img {
+    align-self: center;
+    justify-self: center;
+    width: 70%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 5px;
+    border: 1px solid rgba(75, 71, 71, 0.5);
+}

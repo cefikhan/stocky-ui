@@ -1,0 +1,30 @@
+.prt {
+    margin: 0px;
+    border: none;
+    padding: 0px 50px 0px 50px;
+    margin-bottom: 100px;
+}
+
+.intro {
+    font-size: 60px;
+    font-weight: 400;
+    opacity: 0.9;
+    text-decoration: underline;
+    text-decoration-color: rgb(139, 139, 199);
+    text-decoration-thickness: 15px;
+
+}
+
+.title {
+
+    font-size: 40px;
+    color: rgb(59, 59, 180);
+    font-weight: bold
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+
+}

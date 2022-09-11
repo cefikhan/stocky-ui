@@ -1,0 +1,50 @@
+.prt {
+    box-sizing: border-box;
+    margin: 0px;
+    border: none;
+    padding: 0px 50px 0px 50px;
+    /* margin-bottom: 100px; */
+    width: 100vw;
+    overflow: hidden;
+    background-color: aliceblue;
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.intro {
+    font-size: 60px;
+    font-weight: 400;
+    opacity: 0.9;
+    margin-bottom: 0px;
+
+}
+
+.subd {
+
+    font-size: 20px;
+    color: rgb(54, 52, 52);
+}
+
+.anch {
+    text-decoration: none;
+    color: rgb(74, 114, 201);
+    font-size: 20px;
+}
+
+.leftp {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.rightp {
+    width: 50%;
+    overflow: hidden;
+}
+
+.imgd {
+    width: 100%;
+    margin: 0px;
+    overflow: hidden;
+}

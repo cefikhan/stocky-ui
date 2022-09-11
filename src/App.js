@@ -1,24 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
-
+import Stocky from "./components/stocky";
+import Reviews from "./components/Reviews";
+import Tstack from "./components/tstack";
+import Dashboard from "./components/Dashboard";
+import Pages from "./components/Pages";
+import Language from "./components/Language"
+import Connection from "./components/connection"
+import End from "./components/End"
+import Ratings from "./components/Ratings"
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Stocky/>
+    <Reviews/>
+    <Tstack/>
+    <Dashboard/>
+    <Pages/>
+    <Language/>
+    <Connection/>
+    <End/>
+    <Ratings/>
+    </>
   );
 }
 
